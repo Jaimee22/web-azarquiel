@@ -1,27 +1,76 @@
 <script>
 </script>
 
-<main>
+<!-- <main class="contenedores">
+  <div class="container-fluid">
+    <header class="w-100">
+      <nav class="navbar d-flex flex-row justify-content-xl-center gap-xl-5">
+        <a class="navbar-brand" href="/">
+           <img src= "img/logo-azarquiel.png" alt="logo"/>
+        </a>
+        <ul class="navbar-nav d-flex flex-row gap-4 myheader">
+          <li class="nav-item"><a class="nav-link" href="/">INICIO</a></li>
+          <li class="nav-item"><a class="nav-link" href="/">AL DIA</a></li>
+          <li class="nav-item"><a class="nav-link" href="/">EL LORO</a></li>
+          <li class="nav-item"><a class="nav-link" href="/">EL CENTRO</a></li>
+          <li class="nav-item"><a class="nav-link" href="/">SECRETEARÍA</a></li>
+          <li class="nav-item"><a class="nav-link" href="/">FAMILIAS</a></li>
+          <li class="nav-item"><a class="nav-link" href="/">BOLSA</a></li>
+          <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"><i class="fa-solid fa-bars fa-2xl"></i></button>
+        </ul>
+      </nav>
+    </header>
+  </div>
+  <div class="offcanvas offcanvas-end text-white bg-dark" tabindex="-1" id="offcanvas">
+    <div class="offcanvas-header f-flex flex-column align-items-start gap-3">
+      <div class="h3">SEARCH</div>
+      <div class="d-flex flex-row justify-content-center align-items-center w-100">
+        <input type="text" class="form-control mysize" placeholder="Search...">
+      </div>
+    </div>
+    <div class="offcanvas-body p-0">
+      <ul class="navbar-nav d-flex flex-column offheader">
+        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> INICIO</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> AL DIA</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> EL LORO</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> EL CENTRO</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> SECRETEARÍA</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> FAMILIAS</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> BOLSA</a></li>
+      </ul>
+    </div>
+  </div>
+</main> -->
+
+<main class="sticky-top">
   <header class="animated menu-fixed-out">
     <div class="container">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a href="/"><img id="logo" src="img/logo-azarquiel.png" alt="Logo IesAzarquiel"/></a>
+          <a href="/"
+            ><img
+              id="logo"
+              src="img/logo-azarquiel.png"
+              alt="Logo IesAzarquiel"
+            /></a
+          >
           <button
             class="navbar-toggler"
             type="button"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-            data-bs-toggle="offcanvas" 
+            data-bs-toggle="offcanvas"
             data-bs-target="#demo"
           >
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" />
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#!">INICIO</a>
+                <a class="nav-link active" aria-current="page" href="#!"
+                  >INICIO</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -41,9 +90,6 @@
                     <a class="dropdown-item" href="#!">Something else here</a>
                   </li>
                 </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#!">EL LORO</a>
               </li>
               <li class="nav-item dropdown">
                 <a
@@ -71,31 +117,6 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  FAMILIAS
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#!">Familias en red</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#!"
-                      >Activar SMS Faltas Asistencia</a
-                    >
-                  </li>
-                  <li><a class="dropdown-item" href="#!">Calendario Escolar</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#!"
-                      >Estructura Académica 4º<br />ESO LOMCE</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#!"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
                   SECRETARÍA
                 </a>
                 <ul class="dropdown-menu">
@@ -107,12 +128,48 @@
                   </li>
                 </ul>
               </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#!"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  FAMILIAS
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#!">Familias en red</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#!"
+                      >Activar SMS Faltas Asistencia</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#!">Calendario Escolar</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#!"
+                      >Estructura Académica 4º<br />ESO LOMCE</a
+                    >
+                  </li>
+                </ul>
+              </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#!">BOLSA</a>
+                <a class="nav-link active" aria-current="page" href="#!"
+                  >BOLSA</a
+                >
               </li>
             </ul>
             <div class="d-flex">
-              <i data-bs-toggle="offcanvas" data-bs-target="#demo" id="menu" class="fa-solid fa-bars"></i>
+              <i
+                data-bs-toggle="offcanvas"
+                data-bs-target="#demo"
+                id="menu"
+                class="fa-solid fa-bars"
+              />
             </div>
           </div>
         </div>
@@ -120,11 +177,14 @@
     </div>
   </header>
 
-  <!-- Offcanvas Sidebar -->
   <div class="offcanvas offcanvas-end text-bg-dark" id="demo">
     <div class="offcanvas-header">
       <h1 class="offcanvas-title">SEARCH</h1>
-      <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"></button>
+      <button
+        type="button"
+        class="btn-close btn-close-white text-reset"
+        data-bs-dismiss="offcanvas"
+      />
     </div>
     <div class="offcanvas-body">
       <p>INICIO</p>
@@ -134,50 +194,8 @@
       <p>SECRETARÍA</p>
       <p>FAMILIAS</p>
       <p>BOLSA</p>
-      <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <a href="#">INICIO</a>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          AL DÍA
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#">BLOG DEL CENTRO</a></li>
-          <li><a class="dropdown-item" href="#">AVISOS Y CONVOCATORIAS</a></li>
-        </ul>
-      </div>
-      <a href="#">EL LORO</a>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          EL CENTRO
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li> <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              GENERAL
-            </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="#">CARACTERÍSTICAS</a></li>
-              <li><a class="dropdown-item" href="#">HORARIO</a></li>
-              <li><a class="dropdown-item" href="#">INSTALACIONES</a></li>
-              <li><a class="dropdown-item" href="#">PROYECTO EDUCATIVO DEL CENTRO</a></li>
-              <li><a class="dropdown-item" href="#">NORMAS DE CONVIVENCIA</a></li>
-            </ul>
-          </div></li>
-          <li><a class="dropdown-item" href="#">AVISOS Y CONVOCATORIAS</a></li>
-        </ul>
-      </div>
-      <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-          AL DÍA
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-          <li><a class="dropdown-item" href="#">BLOG DEL CENTRO</a></li>
-          <li><a class="dropdown-item" href="#">AVISOS Y CONVOCATORIAS</a></li>
-        </ul> -->
-      </div>
+    </div>
   </div>
-
-
 </main>
 
 <style lang="sass">
@@ -185,10 +203,20 @@
     font-family: 'Open Sans', sans-serif
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px
     height: 5rem
+    background-color: white
 
     #logo
-      height: 3.5rem
-      margin-left: 5.5rem
+      max-width: 16rem
+      width: 100%
+      margin-left: 5rem
+      margin-top: 0.5rem
+
+    p
+      color: white
+      cursor: pointer
+      &:hover
+        font-weight: bold
+        text-decoration: underline
 
     .container-fluid 
       button
@@ -216,9 +244,44 @@
     cursor: pointer
     font-size: 1.5rem
     margin-left: -6rem
+    margin-top: 0.3rem
 
     &:hover
       color: #89D5F2
       transition: 400ms
+
+
+
+  @media (max-width: 1400px)
+   .navbar-collapse
+     margin-left: 0rem
+
+   #menu
+    cursor: pointer
+    font-size: 1.5rem
+    margin-left: -10rem
+
+  @media (max-width: 1200px)
+   .navbar-collapse
+     margin-left: 0rem
+
+   #menu
+    cursor: pointer
+    font-size: 1.5rem
+    margin-left: 0rem
+
+  @media (max-width: 550px)
+    main
+      font-family: 'Open Sans', sans-serif
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px
+      height: 5rem
+      background-color: white
+      justify-content: center
+      
+      #logo
+        max-width: 14rem
+        width: 100%
+        margin-left: 0rem
+        margin-top: 0.5rem
 
 </style>

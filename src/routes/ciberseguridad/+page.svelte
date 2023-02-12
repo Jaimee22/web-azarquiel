@@ -8,18 +8,16 @@
       <div class="row">
         <div class="col-12 mt-4 mb-4">
           <h1>
-            Curso de Especialización en Ciberseguridad en Entornos de las
-            Tecnologías de la Información
+            Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información
           </h1>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-8">
+        <div class="col-lg-8 imagen">
           <img
             class="img-fluid mb-4"
             src="img/ciberseguridad/ciberseguridadGrande.jpg"
             alt="Curso de Especialización en Ciberseguridad en Entornos de las Tecnologías de la Información"
-            style="height:30rem;"
           />
         </div>
         <div class="col-lg-4">
@@ -50,6 +48,11 @@
               style="font-weight: bold; background-color: #009CDE; border: 0px; color: white"
               >Ver Folleto (PDF)</a
             >
+          </div>
+          <div class="col-12 mt-4 pt-1 pb-1 bg-at text-center" style="padding-top:0px">
+            <video width="400px" muted loop autoplay>
+              <source src="img/ciberseguridad/videociberseguridad.mp4" type="video/mp4">
+            </video>
           </div>
         </div>
         <div class="row mt-4 mb-4">
@@ -422,5 +425,17 @@
 </main>
 
 <style lang="sass">
+  .imagen
+    display: flex
+    justify-content: center
+    align-items: center
+
+  img
+    max-height: 31.65rem
+    height:100%
+
+  video
+    max-width: 400px
+    width:100%
 
 </style>
