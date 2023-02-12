@@ -1,47 +1,6 @@
 <script>
 </script>
 
-<!-- <main class="contenedores">
-  <div class="container-fluid">
-    <header class="w-100">
-      <nav class="navbar d-flex flex-row justify-content-xl-center gap-xl-5">
-        <a class="navbar-brand" href="/">
-           <img src= "img/logo-azarquiel.png" alt="logo"/>
-        </a>
-        <ul class="navbar-nav d-flex flex-row gap-4 myheader">
-          <li class="nav-item"><a class="nav-link" href="/">INICIO</a></li>
-          <li class="nav-item"><a class="nav-link" href="/">AL DIA</a></li>
-          <li class="nav-item"><a class="nav-link" href="/">EL LORO</a></li>
-          <li class="nav-item"><a class="nav-link" href="/">EL CENTRO</a></li>
-          <li class="nav-item"><a class="nav-link" href="/">SECRETEARÍA</a></li>
-          <li class="nav-item"><a class="nav-link" href="/">FAMILIAS</a></li>
-          <li class="nav-item"><a class="nav-link" href="/">BOLSA</a></li>
-          <button data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas"><i class="fa-solid fa-bars fa-2xl"></i></button>
-        </ul>
-      </nav>
-    </header>
-  </div>
-  <div class="offcanvas offcanvas-end text-white bg-dark" tabindex="-1" id="offcanvas">
-    <div class="offcanvas-header f-flex flex-column align-items-start gap-3">
-      <div class="h3">SEARCH</div>
-      <div class="d-flex flex-row justify-content-center align-items-center w-100">
-        <input type="text" class="form-control mysize" placeholder="Search...">
-      </div>
-    </div>
-    <div class="offcanvas-body p-0">
-      <ul class="navbar-nav d-flex flex-column offheader">
-        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> INICIO</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> AL DIA</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> EL LORO</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> EL CENTRO</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> SECRETEARÍA</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> FAMILIAS</a></li>
-        <li class="nav-item"><a class="nav-link text-white" href="/"><i class="fa-solid fa-chevron-right"></i> BOLSA</a></li>
-      </ul>
-    </div>
-  </div>
-</main> -->
-
 <main class="sticky-top">
   <header class="animated menu-fixed-out">
     <div class="container">
@@ -83,12 +42,8 @@
                   AL DÍA
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#!">Action</a></li>
-                  <li><a class="dropdown-item" href="#!">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#!">Something else here</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#!">Blog del centro</a></li>
+                  <li><a class="dropdown-item" href="#!">Avisos y convocatorias</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -102,11 +57,10 @@
                   EL CENTRO
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#!">Action</a></li>
-                  <li><a class="dropdown-item" href="#!">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#!">Something else here</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#!">Características</a></li>
+                  <li><a class="dropdown-item" href="#!">Horario</a></li>
+                  <li><a class="dropdown-item" href="#!">Instalaciones</a></li>
+                  <li><a class="dropdown-item" href="#!">Proyecto educativo del centro</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -120,12 +74,9 @@
                   SECRETARÍA
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#!">Action</a></li>
-                  <li><a class="dropdown-item" href="#!">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#!">Something else here</a>
-                  </li>
+                  <li><a class="dropdown-item" href="#!">Horario Secretaría</a></li>
+                  <li><a class="dropdown-item" href="#!">Preguntas Frecuentes</a></li>
+                  <li><a class="dropdown-item" href="#!">Impresos Habituales</a></li>
                 </ul>
               </li>
               <li class="nav-item dropdown">
@@ -139,22 +90,10 @@
                   FAMILIAS
                 </a>
                 <ul class="dropdown-menu">
-                  <li>
-                    <a class="dropdown-item" href="#!">Familias en red</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#!"
-                      >Activar SMS Faltas Asistencia</a
-                    >
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#!">Calendario Escolar</a>
-                  </li>
-                  <li>
-                    <a class="dropdown-item" href="#!"
-                      >Estructura Académica 4º<br />ESO LOMCE</a
-                    >
-                  </li>
+                  <li><a class="dropdown-item" href="#!">Familias en Red</a></li>
+                  <li><a class="dropdown-item" href="#!">Activar SMS Faltas Asistencia</a></li>
+                  <li><a class="dropdown-item" href="#!">Calendario</a></li>
+                  <li><a class="dropdown-item" href="#!">Estructura Académica</a></li>
                 </ul>
               </li>
               <li class="nav-item">

@@ -56,7 +56,6 @@
             #tel, #correo
                 font-size: 0.8rem
   
-
     @media (max-width: 830px)
         .header
             display: grid

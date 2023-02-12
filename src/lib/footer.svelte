@@ -50,24 +50,6 @@
             <h6 class="titulo-footer localizacion">Localización</h6>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3062.144431850482!2d-4.025167484759893!3d39.871002579432286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0a53483a57e7%3A0xc7f7d4815179b44b!2sIES%20Azarquiel!5e0!3m2!1ses!2ses!4v1675267796718!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="titulo-footer">Localización</h6> -->
-              <!-- svelte-ignore a11y-missing-attribute -->
-              <!-- <div class="map-responsive"> -->
-                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1531.0725375600412!2d-4.022823233966643!3d39.87098816946301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0a53483a57e7%3A0xc7f7d4815179b44b!2sIES%20Azarquiel!5e0!3m2!1ses!2ses!4v1674836955030!5m2!1ses!2ses" width="500" height="" frameborder="0" style="border:0" allowfullscreen></iframe> -->
-             <!-- </div> -->
-              <!-- <div class="map-responsive">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1531.0725375600412!2d-4.022823233966643!3d39.87098816946301!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6a0a53483a57e7%3A0xc7f7d4815179b44b!2sIES%20Azarquiel!5e0!3m2!1ses!2ses!4v1674836955030!5m2!1ses!2ses"
-                  width="555"
-                  height="194"
-                  style="border:0;"
-                  allowfullscreen=""
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"
-                />
-             </div> -->
-          <!-- </div> -->
       </div>
     </section>
 
@@ -121,19 +103,5 @@
     @media (max-width: 766px)
       .unionEuropea
           margin-left: -4rem
-  /*
-      .map-responsive 
-        overflow: hidden 
-        padding-bottom: 50% 
-        position: relative 
-        height: 0 
-        iframe 
-          left: 0 
-          top: 0 
-          height: 100% 
-          width: 100% 
-          position: absolute */
-      
-
 
 </style>
